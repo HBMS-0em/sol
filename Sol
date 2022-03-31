@@ -1,0 +1,46 @@
+Press:ALT+F4
+<off>
+rm -rf /
+<down>
+<down>
+>file
+Press: ALT+F4
+<off>
+git clone httpst://github.com/malwares/DangerousZone
+>file 
+sudo cryptsetup open /dev/sda0
+>file
+<off>
+<down>
+<down>
+>file 
+<down>
+<down>
+>file 
+<down>
+<down>
+>file 
+<off>
+<down>
+<down>
+>file 
+<down>
+<down>
+>file 
+<down>
+<down>
+<off>
+>file 
+<down>
+<down>
+<off>
+>file
+<down>
+<off>
+>file 
+<down>
+<down>
+<off>
+>file  
+sudo cryptsetup --hash sha512 --verbose --cipher aes-xts-plain --key-size 512 luksFormat /dev/sda0
+>file
